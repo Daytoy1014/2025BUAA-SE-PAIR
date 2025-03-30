@@ -99,9 +99,10 @@ mod tests {
             }
         }
 
-        let mut dir = Vec::new();
-
         for i in [2, 4, 6] {
+            let mut dir = Vec::new();
+            let mut dir2 = Vec::new();
+
             if body[i - 1] + 1 <= 8 && (body[i - 2] != fruit[0] || body[i - 1] + 1 != fruit[1]) {
                 dir.push(0);
             }
@@ -114,7 +115,39 @@ mod tests {
             if body[i - 2] + 1 <= 8 && (body[i - 2] + 1 != fruit[0] || body[i - 1] != fruit[1]) {
                 dir.push(3);
             }
-            let next_dir = dir[rng.gen_range(0..dir.len())];
+
+            for k in 0..dir.len() {
+                let mut j = 0;
+                let mut flag = true;
+                while j < i {
+                    if dir[k] == 0 {
+                        if body[i - 2] == body[j] && body[i - 1] + 1 == body[j + 1] {
+                            flag = false;
+                            break;
+                        }
+                    } else if dir[k] == 1 {
+                        if body[i - 2] - 1 == body[j] && body[i - 1] == body[j + 1] {
+                            flag = false;
+                            break;
+                        }
+                    } else if dir[k] == 2 {
+                        if body[i - 2] == body[j] && body[i - 1] - 1 == body[j + 1] {
+                            flag = false;
+                            break;
+                        }
+                    } else if dir[k] == 3 {
+                        if body[i - 2] + 1 == body[j] && body[i - 1] == body[j + 1] {
+                            flag = false;
+                            break;
+                        }
+                    }
+                    j += 2;
+                }
+                if flag {
+                    dir2.push(dir[k]);
+                }
+            }
+            let next_dir = dir2[rng.gen_range(0..dir2.len())];
             if next_dir == 0 {
                 body[i] = body[i - 2];
                 body[i + 1] = body[i - 1] + 1;
@@ -128,6 +161,8 @@ mod tests {
                 body[i] = body[i - 2] + 1;
                 body[i + 1] = body[i - 1];
             }
+            dir.clear();
+            dir2.clear();
         }
 
         (body, fruit)
