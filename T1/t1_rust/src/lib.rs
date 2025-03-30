@@ -77,15 +77,143 @@ pub fn greedy_snake_move(body: &[i32], fruit: &[i32]) -> i32 {
     }
 }
 
-// #[cfg(test)]
-// mod tests {
-//     use super::*;
-//
-//     #[test]
-//     fn greedy_snake_move_test() {
-//         assert_eq!(greedy_snake_move(&[1, 2, 3, 4], &[5, 6]), 0);
-//         assert_eq!(greedy_snake_move(&[1, 2, 3, 4], &[5, 2]), 3);
-//         assert_eq!(greedy_snake_move(&[1, 2, 3, 4], &[1, 6]), 2);
-//         assert_eq!(greedy_snake_move(&[1, 2, 3, 4], &[1, 2]), -1);
-//     }
-// }
+#[cfg(test)]
+mod tests {
+    use crate::greedy_snake_move;
+    use rand::{Rng, random};
+
+    fn generate_test_case() -> ([i32; 8], [i32; 2]) {
+        let mut rng = rand::thread_rng();
+
+        let mut fruit = [0; 2];
+        fruit[0] = rng.gen_range(1..=8);
+        fruit[1] = rng.gen_range(1..=8);
+
+        let mut body = [0; 8];
+        loop {
+            body[0] = rng.gen_range(1..=8);
+            body[1] = rng.gen_range(1..=8);
+
+            if !(body[0] == fruit[0] && body[1] == fruit[1]) {
+                break;
+            }
+        }
+
+        let mut dir = Vec::new();
+
+        for i in [2, 4, 6] {
+            if body[i - 1] + 1 <= 8 && (body[i - 2] != fruit[0] || body[i - 1] + 1 != fruit[1]) {
+                dir.push(0);
+            }
+            if body[i - 2] - 1 >= 1 && (body[i - 2] - 1 != fruit[0] || body[i - 1] != fruit[1]) {
+                dir.push(1);
+            }
+            if body[i - 1] - 1 >= 1 && (body[i - 2] != fruit[0] || body[i - 1] - 1 != fruit[1]) {
+                dir.push(2);
+            }
+            if body[i - 2] + 1 <= 8 && (body[i - 2] + 1 != fruit[0] || body[i - 1] != fruit[1]) {
+                dir.push(3);
+            }
+            let next_dir = dir[rng.gen_range(0..dir.len())];
+            if next_dir == 0 {
+                body[i] = body[i - 2];
+                body[i + 1] = body[i - 1] + 1;
+            } else if next_dir == 1 {
+                body[i] = body[i - 2] - 1;
+                body[i + 1] = body[i - 1];
+            } else if next_dir == 2 {
+                body[i] = body[i - 2];
+                body[i + 1] = body[i - 1] - 1;
+            } else if next_dir == 3 {
+                body[i] = body[i - 2] + 1;
+                body[i + 1] = body[i - 1];
+            }
+        }
+
+        (body, fruit)
+    }
+
+    fn check(body: &[i32; 8], fruit: &[i32; 2], dir: i32) -> bool {
+        let mut head_x = body[0];
+        let mut head_y = body[1];
+        if dir == 0 {
+            head_y += 1;
+            if head_y > 8 {
+                return false;
+            }
+            if head_x == body[0] && head_y == body[1] {
+                return false;
+            }
+            if head_x == body[2] && head_y == body[3] {
+                return false;
+            }
+            if head_x == body[4] && head_y == body[5] {
+                return false;
+            }
+
+            return true;
+        } else if dir == 1 {
+            head_x -= 1;
+            if head_x < 1 {
+                return false;
+            }
+            if head_x == body[0] && head_y == body[1] {
+                return false;
+            }
+            if head_x == body[2] && head_y == body[3] {
+                return false;
+            }
+            if head_x == body[4] && head_y == body[5] {
+                return false;
+            }
+            return true;
+        } else if dir == 2 {
+            head_y -= 1;
+            if head_y < 1 {
+                return false;
+            }
+            if head_x == body[0] && head_y == body[1] {
+                return false;
+            }
+            if head_x == body[2] && head_y == body[3] {
+                return false;
+            }
+            if head_x == body[4] && head_y == body[5] {
+                return false;
+            }
+            return true;
+        } else if dir == 3 {
+            head_x += 1;
+            if head_x > 8 {
+                return false;
+            }
+            if head_x == body[0] && head_y == body[1] {
+                return false;
+            }
+            if head_x == body[2] && head_y == body[3] {
+                return false;
+            }
+            if head_x == body[4] && head_y == body[5] {
+                return false;
+            }
+            return true;
+        } else {
+            println!("Invalid direction: {}", dir);
+            return false;
+        }
+    }
+
+    #[test]
+    fn main() {
+        for i in 0..100 {
+            println!("test case {}", i);
+            println!("========================");
+            let (body, fruit) = generate_test_case();
+            println!("body: {:?}, fruit: {:?}", body, fruit);
+            let direction = greedy_snake_move(&body, &fruit);
+            println!("Direction: {}", direction);
+            assert_eq!(check(&body, &fruit, direction), true, "Invalid move");
+            println!();
+        }
+    }
+}
