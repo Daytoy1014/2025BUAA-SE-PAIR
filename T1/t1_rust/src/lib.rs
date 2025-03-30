@@ -80,7 +80,7 @@ pub fn greedy_snake_move(body: &[i32], fruit: &[i32]) -> i32 {
 #[cfg(test)]
 mod tests {
     use crate::greedy_snake_move;
-    use rand::{Rng, random};
+    use rand::{Rng};
 
     fn generate_test_case() -> ([i32; 8], [i32; 2]) {
         let mut rng = rand::thread_rng();
