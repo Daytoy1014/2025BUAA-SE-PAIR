@@ -1,7 +1,3 @@
-// pub fn add(left: u64, right: u64) -> u64 {
-//     left + right
-// }
-
 use wasm_bindgen::prelude::wasm_bindgen;
 
 #[wasm_bindgen]
