@@ -76,39 +76,29 @@ pub fn greedy_snake_move(body: &[i32], fruit: &[i32]) -> i32 {
 #[cfg(test)]
 mod tests {
     use crate::greedy_snake_move;
-    use rand::{Rng};
+    use rand::Rng;
 
     fn generate_test_case() -> ([i32; 8], [i32; 2]) {
         let mut rng = rand::thread_rng();
 
-        let mut fruit = [0; 2];
-        fruit[0] = rng.gen_range(1..=8);
-        fruit[1] = rng.gen_range(1..=8);
-
         let mut body = [0; 8];
-        loop {
-            body[0] = rng.gen_range(1..=8);
-            body[1] = rng.gen_range(1..=8);
-
-            if !(body[0] == fruit[0] && body[1] == fruit[1]) {
-                break;
-            }
-        }
+        body[0] = rng.gen_range(1..=8);
+        body[1] = rng.gen_range(1..=8);
 
         for i in [2, 4, 6] {
             let mut dir = Vec::new();
             let mut dir2 = Vec::new();
 
-            if body[i - 1] + 1 <= 8 && (body[i - 2] != fruit[0] || body[i - 1] + 1 != fruit[1]) {
+            if body[i - 1] + 1 <= 8 {
                 dir.push(0);
             }
-            if body[i - 2] - 1 >= 1 && (body[i - 2] - 1 != fruit[0] || body[i - 1] != fruit[1]) {
+            if body[i - 2] - 1 >= 1 {
                 dir.push(1);
             }
-            if body[i - 1] - 1 >= 1 && (body[i - 2] != fruit[0] || body[i - 1] - 1 != fruit[1]) {
+            if body[i - 1] - 1 >= 1 {
                 dir.push(2);
             }
-            if body[i - 2] + 1 <= 8 && (body[i - 2] + 1 != fruit[0] || body[i - 1] != fruit[1]) {
+            if body[i - 2] + 1 <= 8 {
                 dir.push(3);
             }
 
@@ -160,7 +150,22 @@ mod tests {
             dir.clear();
             dir2.clear();
         }
-
+        let mut fruit = [0; 2];
+        loop {
+            fruit[0] = rng.gen_range(1..=8);
+            fruit[1] = rng.gen_range(1..=8);
+            if (fruit[0] != body[0]
+                || fruit[1] != body[1])
+                && (fruit[0] != body[2]
+                || fruit[1] != body[3])
+                && (fruit[0] != body[4]
+                || fruit[1] != body[5])
+                && (fruit[0] != body[6]
+                || fruit[1] != body[7])
+            {
+                break;
+            }
+        }
         (body, fruit)
     }
 
@@ -236,15 +241,12 @@ mod tests {
 
     #[test]
     fn main() {
-        for i in 0..100 {
-            println!("test case {}", i);
-            println!("========================");
+        for i in 0..100000 {
             let (body, fruit) = generate_test_case();
-            println!("body: {:?}, fruit: {:?}", body, fruit);
+            // println!("body: {:?}, fruit: {:?}", body, fruit);
             let direction = greedy_snake_move(&body, &fruit);
-            println!("Direction: {}", direction);
+            // println!("Direction: {}", direction);
             assert_eq!(check(&body, &fruit, direction), true, "Invalid move");
-            println!();
         }
     }
 }

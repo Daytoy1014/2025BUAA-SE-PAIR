@@ -174,4 +174,50 @@ mod tests {
         let first_move = greedy_snake_move_barriers(&snake, &[1,1], &obstacles);
         assert_eq!(first_move, -1);
     }
+
+    #[test]
+    fn test_full_path() {
+        let mut snake = [5,1,4,1,3,1,2,1];
+        let fruit = [4,2];
+
+        let mut obstacles = [0; 24];
+        let block_coords = [
+            (5,2),(6,2),(7,2)
+        ];
+        for (i, &(x,y)) in block_coords.iter().enumerate() {
+            obstacles[i * 2] = x;
+            obstacles[i * 2 + 1] = y;
+        }
+
+        let mut found = false;
+        while snake[0] != fruit[0] || snake[1] != fruit[1] {
+            let move_dir = greedy_snake_move_barriers(&snake, &fruit, &obstacles);
+            if move_dir == -1 {
+                println!("No path found!");
+                break;
+            } else {
+                println!("move:{}", move_dir);
+                snake[6] = snake[4];
+                snake[7] = snake[5];
+                snake[4] = snake[2];
+                snake[5] = snake[3];
+                snake[2] = snake[0];
+                snake[3] = snake[1];
+                snake[0] += match move_dir {
+                    0 => 0,
+                    1 => -1,
+                    2 => 0,
+                    3 => 1,
+                    _ => unreachable!(),
+                };
+                snake[1] += match move_dir {
+                    0 => 1,
+                    1 => 0,
+                    2 => -1,
+                    3 => 0,
+                    _ => unreachable!(),
+                };
+            }
+        }
+    }
 }
