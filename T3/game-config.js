@@ -1,9 +1,9 @@
 // Import snake decision functions
-import { greedy_snake_step as snake1 } from './t3-snake-1-{PL}/pkg/snake.js';
-import { greedy_snake_step as snake2 } from './t3-snake-{num}-{PL}/pkg/snake.js';
-import { greedy_snake_step as snake3 } from './t3-snake-{num}-{PL}/pkg/snake.js';
-import { greedy_snake_step as snake4 } from './t3-snake-{num}-{PL}/pkg/snake.js';
-// import { greedy_snake_step as snake5 } from './t3-snake-{num}-{PL}/pkg/snake.js';
+import { greedy_snake_step as snake1 } from './t3-snake-1-rust/pkg/t3_rust.js';
+import { greedy_snake_step as snake2 } from './t3-snake-2-rust/pkg/t3_rust.js';
+import { greedy_snake_step as snake3 } from './t3-snake-3-rust/pkg/t3_rust.js';
+import { greedy_snake_step as snake4 } from './t3-snake-4-rust/pkg/t3_rust.js';
+// import { greedy_snake_step as snake5 } from './t3-snake-1-rust/pkg/snake.js';
 // import { greedy_snake_step as snake6 } from './t3-snake-{num}-{PL}/pkg/snake.js';
 // import { greedy_snake_step as snake7 } from './t3-snake-{num}-{PL}/pkg/snake.js';
 // import { greedy_snake_step as snake8 } from './t3-snake-{num}-{PL}/pkg/snake.js';
@@ -121,7 +121,7 @@ export const GAME_SYMBOLS = {
   FOOD: '★',       // Food
   EMPTY: ' ',      // Empty cell
   VERTICAL: '│',   // Vertical border
-  HORIZONTAL: '─', // Horizontal border
+  HORIZONTAL: '─', // Horizo ntal border
   CORNER_TL: '┌',  // Top left corner
   CORNER_TR: '┐',  // Top right corner  
   CORNER_BL: '└',  // Bottom left corner
