@@ -137,8 +137,8 @@ pub fn greedy_snake_move_barriers(
 
 #[cfg(test)]
 mod tests {
-    use super::*;
-
+    use crate::find_dir;
+    use crate::greedy_snake_move_barriers;
     #[test]
     fn test_direct_path() {
 

@@ -4,8 +4,12 @@
     <content url="file://$MODULE_DIR$">
       <sourceFolder url="file://$MODULE_DIR$/G/g_rust/src" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/T1/t1_rust/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/T2/t2_rust/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/T3/t3_rust/src" isTestSource="false" />
       <excludeFolder url="file://$MODULE_DIR$/G/g_rust/target" />
       <excludeFolder url="file://$MODULE_DIR$/T1/t1_rust/target" />
+      <excludeFolder url="file://$MODULE_DIR$/T2/t2_rust/target" />
+      <excludeFolder url="file://$MODULE_DIR$/T3/t3_rust/target" />
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />

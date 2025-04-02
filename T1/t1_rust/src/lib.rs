@@ -240,7 +240,7 @@ mod tests {
     }
 
     #[test]
-    fn main() {
+    fn t1_test() {
         for i in 0..100000 {
             let (body, fruit) = generate_test_case();
             // println!("body: {:?}, fruit: {:?}", body, fruit);
