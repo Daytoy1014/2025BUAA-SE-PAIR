@@ -10,6 +10,8 @@ struct AStarState {
     cost: i32,
     est: i32,
     first_move: i32,
+    body_x: i32,
+    body_y: i32,
 }
 
 impl Ord for AStarState {
@@ -49,9 +51,9 @@ fn find_dir(
         }
     }
 
-    if snake[2] >= 1 && snake[2] <= 8 && snake[3] >= 1 && snake[3] <= 8 {
-        blocked[snake[2] as usize][snake[3] as usize] = true;
-    }
+    // if snake[2] >= 1 && snake[2] <= 8 && snake[3] >= 1 && snake[3] <= 8 {
+    //     blocked[snake[2] as usize][snake[3] as usize] = true;
+    // }
 
     if head_x < 1 || head_x > 8 || head_y < 1 || head_y > 8 {
         return -1;
@@ -62,13 +64,32 @@ fn find_dir(
         return 0;
     }
 
+    // let first_move = if head_x == snake[2] {
+    //     if head_y == snake[3] {
+    //         -2
+    //     } else if head_y > snake[3] {
+    //         0
+    //     } else {
+    //         2
+    //     }
+    // } else if head_y == snake[3] {
+    //     if head_x > snake[2] {
+    //         3
+    //     } else {
+    //         1
+    //     }
+    // } else {
+    //     -2
+    // };
 
     let head_state = AStarState {
         x: head_x,
         y: head_y,
         cost: 0,
         est: manhattan(head_x, head_y, fruit[0], fruit[1]),
-        first_move: -2
+        first_move: -2,
+        body_x: snake[2],
+        body_y: snake[3],
     };
 
     let mut open_set = BinaryHeap::new();
@@ -97,6 +118,9 @@ fn find_dir(
             if blocked[nx as usize][ny as usize] {
                 continue;
             }
+            if nx == state.body_x && ny == state.body_y {
+                continue;
+            }
             let new_cost = state.cost + 1;
             let new_step = (nx, ny, new_cost);
             if visited.contains(&new_step) {
@@ -115,6 +139,8 @@ fn find_dir(
                 cost: new_cost,
                 est: new_est,
                 first_move: new_first_move,
+                body_x: state.x,
+                body_y: state.y,
             };
             open_set.push(next_state);
         }
@@ -178,11 +204,12 @@ mod tests {
     #[test]
     fn test_full_path() {
         let mut snake = [5,1,4,1,3,1,2,1];
-        let fruit = [4,2];
+        let fruit = [1,1];
 
         let mut obstacles = [0; 24];
         let block_coords = [
-            (5,2),(6,2),(7,2)
+            (1,2),(2,2),(3,2),(4,2),(5,2),
+            (6,2),(7,2)
         ];
         for (i, &(x,y)) in block_coords.iter().enumerate() {
             obstacles[i * 2] = x;

@@ -1,4 +1,5 @@
 use std::collections::VecDeque;
+use std::io::sink;
 use wasm_bindgen::prelude::wasm_bindgen;
 use rand::random;
 
@@ -7,6 +8,7 @@ struct MoveScore {
     safety_score: f64,
     free_score: f64,
     food_score: f64,
+    center_score: f64,
     total_score: f64,
 }
 
@@ -48,13 +50,24 @@ pub fn greedy_snake_step(
 
         let fruit_score = evaluate_fruit(next_x, next_y, fruit);
 
-        let total_score = 0.3 * safety_score + 0.1 * free_score + 0.6 * fruit_score;
+        let center_score = evaluate_center(next_x, next_y, size);
+
+        let safety_weight = 0.3;
+        let free_weight = 0.2;
+        let food_weight = 0.3;
+        let center_weight = 0.2;
+        let total_score =
+            (safety_score * safety_weight)
+            + (free_score * free_weight)
+            + (fruit_score * food_weight)
+            + (center_score * center_weight);
 
         choices.push(MoveScore {
             direction: dir,
             safety_score,
             free_score,
             food_score: fruit_score,
+            center_score,
             total_score,
         });
     }
@@ -137,4 +150,19 @@ fn evaluate_fruit(new_x: i32, new_y: i32, fruit: &[i32]) -> f64 {
     if min_dist == 0 {
         1.0
     } else { 1.0 / (min_dist as f64) }
+}
+
+fn evaluate_center(new_x: i32, new_y: i32, size: i32) -> f64 {
+    let d_left = (new_x - 1).abs();
+    let d_right = (new_x - size).abs();
+    let d_up = (new_y - 1).abs();
+    let d_down = (new_y - size).abs();
+    let min_dist = d_left.min(d_right).min(d_up).min(d_down);
+    let max_dist = (size -1) as f64 / 2.0;
+    let score = (min_dist as f64) / (max_dist as f64);
+    if score > 1.0 {
+        1.0
+    } else {
+        score
+    }
 }
