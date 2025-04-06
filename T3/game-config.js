@@ -1,9 +1,10 @@
 // Import snake decision functions
-import { greedy_snake_step as snake5 } from './t3-snake-1-rust/pkg/t3_rust.js';
-import { greedy_snake_step as snake2 } from './t3-snake-2-rust/pkg/t3_rust.js';
+import { greedy_snake_step as snake1 } from './t3_rust/pkg/t3_rust.js';
+import { greedy_snake_step as snake2 } from './t3-snake-7-rust/pkg/t3_rust.js';
 import { greedy_snake_step as snake3 } from './t3-snake-3-rust/pkg/t3_rust.js';
 import { greedy_snake_step as snake4 } from './t3-snake-4-rust/pkg/t3_rust.js';
-import { greedy_snake_step as snake1 } from './t3-snake-5-rust/pkg/release.js';
+import { greedy_snake_step as snake5 } from './t3-snake-5-rust/pkg/release.js';
+import { greedy_snake_step as snake6 } from './t3-snake-6-rust/pkg/release.js';
 // import { greedy_snake_step as snake6 } from './t3-snake-{num}-{PL}/pkg/snake.js';
 // import { greedy_snake_step as snake7 } from './t3-snake-{num}-{PL}/pkg/snake.js';
 // import { greedy_snake_step as snake8 } from './t3-snake-{num}-{PL}/pkg/snake.js';
@@ -14,11 +15,11 @@ export const GAME_MODE = "1v1"; // "1v1" or "4snakes" or "custom"
 // Snake decision functions mapping
 export const snakeModules = [
   snake1,
-  // snake2,
+  snake2,
   // snake3,
   // snake4,
-  snake5,
-  // snake6,
+  //snake5,
+  //snake6,
   // snake7,
   // snake8,
   // You can add more snake decision functions

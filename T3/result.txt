@@ -1,0 +1,1100 @@
+
+> t3-test@1.0.0 submit-test
+> node test.js
+
+Starting 1v1 mode with 2 snakes, board size 5x5, 5 foods, 50 rounds
+Game seed: 0xb0ba5d5c0f78e135
+
+=== FINAL RESULTS ===
+Snake scores:
+Snake 1: 20 points (survived) spent 6.551ms
+Snake 2: 12 points (survived) spent 1.464ms
+
+> t3-test@1.0.0 submit-test
+> node test.js
+
+Starting 1v1 mode with 2 snakes, board size 5x5, 5 foods, 50 rounds
+Game seed: 0x062f8790c0381ed9
+
+=== FINAL RESULTS ===
+Snake scores:
+Snake 1: 19 points (survived) spent 5.313ms
+Snake 2: 20 points (survived) spent 1.196ms
+
+> t3-test@1.0.0 submit-test
+> node test.js
+
+Starting 1v1 mode with 2 snakes, board size 5x5, 5 foods, 50 rounds
+Game seed: 0x60c1107465453050
+
+=== FINAL RESULTS ===
+Snake scores:
+Snake 1: 0 points (survived) spent 5.876ms
+Snake 2: 2 points (survived) spent 1.245ms
+
+> t3-test@1.0.0 submit-test
+> node test.js
+
+Starting 1v1 mode with 2 snakes, board size 5x5, 5 foods, 50 rounds
+Game seed: 0xca658fc7c8a1ee17
+
+=== FINAL RESULTS ===
+Snake scores:
+Snake 1: 22 points (survived) spent 5.524ms
+Snake 2: 14 points (survived) spent 1.260ms
+
+> t3-test@1.0.0 submit-test
+> node test.js
+
+Starting 1v1 mode with 2 snakes, board size 5x5, 5 foods, 50 rounds
+Game seed: 0x92d44e6f481fe3e0
+
+=== FINAL RESULTS ===
+Snake scores:
+Snake 1: 23 points (survived) spent 5.214ms
+Snake 2: 13 points (survived) spent 1.250ms
+
+> t3-test@1.0.0 submit-test
+> node test.js
+
+Starting 1v1 mode with 2 snakes, board size 5x5, 5 foods, 50 rounds
+Game seed: 0x53da86577e6bf8ef
+
+=== FINAL RESULTS ===
+Snake scores:
+Snake 1: 5 points (survived) spent 2.805ms
+Snake 2: 4 points (survived) spent 1.123ms
+
+> t3-test@1.0.0 submit-test
+> node test.js
+
+Starting 1v1 mode with 2 snakes, board size 5x5, 5 foods, 50 rounds
+Game seed: 0xf8c7c2c8f03a3042
+
+=== FINAL RESULTS ===
+Snake scores:
+Snake 1: 16 points (survived) spent 2.625ms
+Snake 2: 11 points (survived) spent 1.228ms
+
+> t3-test@1.0.0 submit-test
+> node test.js
+
+Starting 1v1 mode with 2 snakes, board size 5x5, 5 foods, 50 rounds
+Game seed: 0x0abc899c4b389c61
+
+=== FINAL RESULTS ===
+Snake scores:
+Snake 1: 19 points (survived) spent 5.071ms
+Snake 2: 14 points (survived) spent 1.386ms
+
+> t3-test@1.0.0 submit-test
+> node test.js
+
+Starting 1v1 mode with 2 snakes, board size 5x5, 5 foods, 50 rounds
+Game seed: 0xf8de9f64bcc8be57
+
+=== FINAL RESULTS ===
+Snake scores:
+Snake 1: 22 points (survived) spent 5.080ms
+Snake 2: 9 points (survived) spent 1.195ms
+
+> t3-test@1.0.0 submit-test
+> node test.js
+
+Starting 1v1 mode with 2 snakes, board size 5x5, 5 foods, 50 rounds
+Game seed: 0x48c5b03c7a290339
+
+=== FINAL RESULTS ===
+Snake scores:
+Snake 1: 26 points (survived) spent 5.147ms
+Snake 2: 13 points (survived) spent 1.168ms
+
+> t3-test@1.0.0 submit-test
+> node test.js
+
+Starting 1v1 mode with 2 snakes, board size 5x5, 5 foods, 50 rounds
+Game seed: 0x21dafcdaa25c16fe
+
+=== FINAL RESULTS ===
+Snake scores:
+Snake 1: 19 points (survived) spent 7.566ms
+Snake 2: 13 points (survived) spent 1.424ms
+
+> t3-test@1.0.0 submit-test
+> node test.js
+
+Starting 1v1 mode with 2 snakes, board size 5x5, 5 foods, 50 rounds
+Game seed: 0x78310c0a4ce86461
+
+=== FINAL RESULTS ===
+Snake scores:
+Snake 1: 27 points (survived) spent 5.323ms
+Snake 2: 15 points (survived) spent 1.191ms
+
+> t3-test@1.0.0 submit-test
+> node test.js
+
+Starting 1v1 mode with 2 snakes, board size 5x5, 5 foods, 50 rounds
+Game seed: 0xbbc1c138c54a51c6
+
+=== FINAL RESULTS ===
+Snake scores:
+Snake 1: 7 points (survived) spent 5.156ms
+Snake 2: 2 points (survived) spent 1.248ms
+
+> t3-test@1.0.0 submit-test
+> node test.js
+
+Starting 1v1 mode with 2 snakes, board size 5x5, 5 foods, 50 rounds
+Game seed: 0xcf6803441f790e90
+
+=== FINAL RESULTS ===
+Snake scores:
+Snake 1: 26 points (survived) spent 4.390ms
+Snake 2: 8 points (died in round 23) spent 0.938ms
+
+> t3-test@1.0.0 submit-test
+> node test.js
+
+Starting 1v1 mode with 2 snakes, board size 5x5, 5 foods, 50 rounds
+Game seed: 0x3da2e52606fde1cc
+
+=== FINAL RESULTS ===
+Snake scores:
+Snake 1: 23 points (survived) spent 5.782ms
+Snake 2: 10 points (survived) spent 1.269ms
+
+> t3-test@1.0.0 submit-test
+> node test.js
+
+Starting 1v1 mode with 2 snakes, board size 5x5, 5 foods, 50 rounds
+Game seed: 0xc1ed8a2e3bc993db
+
+=== FINAL RESULTS ===
+Snake scores:
+Snake 1: 20 points (survived) spent 4.785ms
+Snake 2: 22 points (survived) spent 1.228ms
+
+> t3-test@1.0.0 submit-test
+> node test.js
+
+Starting 1v1 mode with 2 snakes, board size 5x5, 5 foods, 50 rounds
+Game seed: 0xfa6657117e343881
+
+=== FINAL RESULTS ===
+Snake scores:
+Snake 1: 24 points (survived) spent 5.350ms
+Snake 2: 21 points (survived) spent 1.324ms
+
+> t3-test@1.0.0 submit-test
+> node test.js
+
+Starting 1v1 mode with 2 snakes, board size 5x5, 5 foods, 50 rounds
+Game seed: 0x6ad3ff44b617c8b8
+
+=== FINAL RESULTS ===
+Snake scores:
+Snake 1: 22 points (survived) spent 4.883ms
+Snake 2: 13 points (survived) spent 1.242ms
+
+> t3-test@1.0.0 submit-test
+> node test.js
+
+Starting 1v1 mode with 2 snakes, board size 5x5, 5 foods, 50 rounds
+Game seed: 0x2b1b0bf9d71607f7
+
+=== FINAL RESULTS ===
+Snake scores:
+Snake 1: 25 points (survived) spent 5.023ms
+Snake 2: 12 points (survived) spent 1.230ms
+
+> t3-test@1.0.0 submit-test
+> node test.js
+
+Starting 1v1 mode with 2 snakes, board size 5x5, 5 foods, 50 rounds
+Game seed: 0x1d7c491b1d20baa4
+
+=== FINAL RESULTS ===
+Snake scores:
+Snake 1: 25 points (survived) spent 5.447ms
+Snake 2: 16 points (survived) spent 1.191ms
+
+> t3-test@1.0.0 submit-test
+> node test.js
+
+Starting 1v1 mode with 2 snakes, board size 5x5, 5 foods, 50 rounds
+Game seed: 0x2d4dc388985bbded
+
+=== FINAL RESULTS ===
+Snake scores:
+Snake 1: 19 points (survived) spent 2.826ms
+Snake 2: 19 points (survived) spent 1.228ms
+
+> t3-test@1.0.0 submit-test
+> node test.js
+
+Starting 1v1 mode with 2 snakes, board size 5x5, 5 foods, 50 rounds
+Game seed: 0xdb10b328a98b5881
+
+=== FINAL RESULTS ===
+Snake scores:
+Snake 1: 19 points (survived) spent 5.888ms
+Snake 2: 22 points (survived) spent 1.289ms
+
+> t3-test@1.0.0 submit-test
+> node test.js
+
+Starting 1v1 mode with 2 snakes, board size 5x5, 5 foods, 50 rounds
+Game seed: 0x8fbf3abb8bf9a64f
+
+=== FINAL RESULTS ===
+Snake scores:
+Snake 1: 20 points (survived) spent 4.957ms
+Snake 2: 15 points (survived) spent 1.263ms
+
+> t3-test@1.0.0 submit-test
+> node test.js
+
+Starting 1v1 mode with 2 snakes, board size 5x5, 5 foods, 50 rounds
+Game seed: 0x0d5be56a1993e683
+
+=== FINAL RESULTS ===
+Snake scores:
+Snake 1: 28 points (survived) spent 5.424ms
+Snake 2: 13 points (survived) spent 1.245ms
+
+> t3-test@1.0.0 submit-test
+> node test.js
+
+Starting 1v1 mode with 2 snakes, board size 5x5, 5 foods, 50 rounds
+Game seed: 0xc99e106e3007d65a
+
+=== FINAL RESULTS ===
+Snake scores:
+Snake 1: 22 points (survived) spent 3.817ms
+Snake 2: 16 points (survived) spent 1.598ms
+
+> t3-test@1.0.0 submit-test
+> node test.js
+
+Starting 1v1 mode with 2 snakes, board size 5x5, 5 foods, 50 rounds
+Game seed: 0x14050d61b0e4f065
+
+=== FINAL RESULTS ===
+Snake scores:
+Snake 1: 21 points (survived) spent 2.726ms
+Snake 2: 11 points (survived) spent 1.276ms
+
+> t3-test@1.0.0 submit-test
+> node test.js
+
+Starting 1v1 mode with 2 snakes, board size 5x5, 5 foods, 50 rounds
+Game seed: 0xc5abf2a02468bd3a
+
+=== FINAL RESULTS ===
+Snake scores:
+Snake 1: 24 points (survived) spent 8.188ms
+Snake 2: 19 points (survived) spent 1.550ms
+
+> t3-test@1.0.0 submit-test
+> node test.js
+
+Starting 1v1 mode with 2 snakes, board size 5x5, 5 foods, 50 rounds
+Game seed: 0x4a82adb4ec21c718
+
+=== FINAL RESULTS ===
+Snake scores:
+Snake 1: 26 points (survived) spent 5.074ms
+Snake 2: 13 points (survived) spent 1.416ms
+
+> t3-test@1.0.0 submit-test
+> node test.js
+
+Starting 1v1 mode with 2 snakes, board size 5x5, 5 foods, 50 rounds
+Game seed: 0x91386736971b939e
+
+=== FINAL RESULTS ===
+Snake scores:
+Snake 1: 25 points (survived) spent 3.876ms
+Snake 2: 19 points (survived) spent 1.301ms
+
+> t3-test@1.0.0 submit-test
+> node test.js
+
+Starting 1v1 mode with 2 snakes, board size 5x5, 5 foods, 50 rounds
+Game seed: 0x2b130bfe26cbbc61
+
+=== FINAL RESULTS ===
+Snake scores:
+Snake 1: 14 points (survived) spent 5.858ms
+Snake 2: 15 points (survived) spent 1.234ms
+
+> t3-test@1.0.0 submit-test
+> node test.js
+
+Starting 1v1 mode with 2 snakes, board size 5x5, 5 foods, 50 rounds
+Game seed: 0x9deda54257c6108e
+
+=== FINAL RESULTS ===
+Snake scores:
+Snake 1: 2 points (survived) spent 7.073ms
+Snake 2: 2 points (survived) spent 1.455ms
+
+> t3-test@1.0.0 submit-test
+> node test.js
+
+Starting 1v1 mode with 2 snakes, board size 5x5, 5 foods, 50 rounds
+Game seed: 0x2b227f570d71f67b
+
+=== FINAL RESULTS ===
+Snake scores:
+Snake 1: 20 points (survived) spent 5.905ms
+Snake 2: 17 points (survived) spent 1.200ms
+
+> t3-test@1.0.0 submit-test
+> node test.js
+
+Starting 1v1 mode with 2 snakes, board size 5x5, 5 foods, 50 rounds
+Game seed: 0xbff9a8d67ded4608
+
+=== FINAL RESULTS ===
+Snake scores:
+Snake 1: 26 points (survived) spent 5.040ms
+Snake 2: 18 points (survived) spent 1.244ms
+
+> t3-test@1.0.0 submit-test
+> node test.js
+
+Starting 1v1 mode with 2 snakes, board size 5x5, 5 foods, 50 rounds
+Game seed: 0xbd269422cd58f28d
+
+=== FINAL RESULTS ===
+Snake scores:
+Snake 1: 7 points (survived) spent 4.453ms
+Snake 2: 7 points (survived) spent 1.177ms
+
+> t3-test@1.0.0 submit-test
+> node test.js
+
+Starting 1v1 mode with 2 snakes, board size 5x5, 5 foods, 50 rounds
+Game seed: 0x035be226a2573cb7
+
+=== FINAL RESULTS ===
+Snake scores:
+Snake 1: 27 points (survived) spent 2.627ms
+Snake 2: 10 points (survived) spent 1.302ms
+
+> t3-test@1.0.0 submit-test
+> node test.js
+
+Starting 1v1 mode with 2 snakes, board size 5x5, 5 foods, 50 rounds
+Game seed: 0x94edb0bd41bc84c9
+
+=== FINAL RESULTS ===
+Snake scores:
+Snake 1: 20 points (survived) spent 4.243ms
+Snake 2: 10 points (survived) spent 1.252ms
+
+> t3-test@1.0.0 submit-test
+> node test.js
+
+Starting 1v1 mode with 2 snakes, board size 5x5, 5 foods, 50 rounds
+Game seed: 0x81250e8f5aa6e0e7
+
+=== FINAL RESULTS ===
+Snake scores:
+Snake 1: 16 points (survived) spent 5.608ms
+Snake 2: 14 points (survived) spent 1.307ms
+
+> t3-test@1.0.0 submit-test
+> node test.js
+
+Starting 1v1 mode with 2 snakes, board size 5x5, 5 foods, 50 rounds
+Game seed: 0xb259785351a26bbc
+
+=== FINAL RESULTS ===
+Snake scores:
+Snake 1: 4 points (survived) spent 4.353ms
+Snake 2: 2 points (survived) spent 1.171ms
+
+> t3-test@1.0.0 submit-test
+> node test.js
+
+Starting 1v1 mode with 2 snakes, board size 5x5, 5 foods, 50 rounds
+Game seed: 0x3a078cca7d0485dd
+
+=== FINAL RESULTS ===
+Snake scores:
+Snake 1: 22 points (survived) spent 4.522ms
+Snake 2: 20 points (survived) spent 1.232ms
+
+> t3-test@1.0.0 submit-test
+> node test.js
+
+Starting 1v1 mode with 2 snakes, board size 5x5, 5 foods, 50 rounds
+Game seed: 0x6e8627354ee143ed
+
+=== FINAL RESULTS ===
+Snake scores:
+Snake 1: 20 points (survived) spent 2.800ms
+Snake 2: 15 points (survived) spent 1.249ms
+
+> t3-test@1.0.0 submit-test
+> node test.js
+
+Starting 1v1 mode with 2 snakes, board size 5x5, 5 foods, 50 rounds
+Game seed: 0x942a95df6f43b505
+
+=== FINAL RESULTS ===
+Snake scores:
+Snake 1: 21 points (survived) spent 5.628ms
+Snake 2: 13 points (survived) spent 1.278ms
+
+> t3-test@1.0.0 submit-test
+> node test.js
+
+Starting 1v1 mode with 2 snakes, board size 5x5, 5 foods, 50 rounds
+Game seed: 0x4a178cde04494a2f
+
+=== FINAL RESULTS ===
+Snake scores:
+Snake 1: 27 points (survived) spent 3.817ms
+Snake 2: 4 points (died in round 7) spent 0.790ms
+
+> t3-test@1.0.0 submit-test
+> node test.js
+
+Starting 1v1 mode with 2 snakes, board size 5x5, 5 foods, 50 rounds
+Game seed: 0xe898a5f3a701036e
+
+=== FINAL RESULTS ===
+Snake scores:
+Snake 1: 23 points (survived) spent 6.599ms
+Snake 2: 10 points (survived) spent 1.345ms
+
+> t3-test@1.0.0 submit-test
+> node test.js
+
+Starting 1v1 mode with 2 snakes, board size 5x5, 5 foods, 50 rounds
+Game seed: 0x4192bb5771d38d50
+
+=== FINAL RESULTS ===
+Snake scores:
+Snake 1: 21 points (survived) spent 6.690ms
+Snake 2: 13 points (survived) spent 1.396ms
+
+> t3-test@1.0.0 submit-test
+> node test.js
+
+Starting 1v1 mode with 2 snakes, board size 5x5, 5 foods, 50 rounds
+Game seed: 0xd85cef9c7dcddd79
+
+=== FINAL RESULTS ===
+Snake scores:
+Snake 1: 26 points (survived) spent 5.361ms
+Snake 2: 18 points (survived) spent 1.222ms
+
+> t3-test@1.0.0 submit-test
+> node test.js
+
+Starting 1v1 mode with 2 snakes, board size 5x5, 5 foods, 50 rounds
+Game seed: 0x50e680030d5c7a32
+
+=== FINAL RESULTS ===
+Snake scores:
+Snake 1: 22 points (survived) spent 5.520ms
+Snake 2: 15 points (survived) spent 1.307ms
+
+> t3-test@1.0.0 submit-test
+> node test.js
+
+Starting 1v1 mode with 2 snakes, board size 5x5, 5 foods, 50 rounds
+Game seed: 0x853b088ba242a8c9
+
+=== FINAL RESULTS ===
+Snake scores:
+Snake 1: 23 points (survived) spent 4.908ms
+Snake 2: 10 points (survived) spent 1.267ms
+
+> t3-test@1.0.0 submit-test
+> node test.js
+
+Starting 1v1 mode with 2 snakes, board size 5x5, 5 foods, 50 rounds
+Game seed: 0x4bdfd0f87913e75b
+
+=== FINAL RESULTS ===
+Snake scores:
+Snake 1: 21 points (survived) spent 4.705ms
+Snake 2: 17 points (survived) spent 1.187ms
+
+> t3-test@1.0.0 submit-test
+> node test.js
+
+Starting 1v1 mode with 2 snakes, board size 5x5, 5 foods, 50 rounds
+Game seed: 0x2e383d474384c30b
+
+=== FINAL RESULTS ===
+Snake scores:
+Snake 1: 22 points (survived) spent 5.649ms
+Snake 2: 14 points (survived) spent 1.305ms
+
+> t3-test@1.0.0 submit-test
+> node test.js
+
+Starting 1v1 mode with 2 snakes, board size 5x5, 5 foods, 50 rounds
+Game seed: 0x5cdc9c0fba61465e
+
+=== FINAL RESULTS ===
+Snake scores:
+Snake 1: 19 points (survived) spent 5.023ms
+Snake 2: 12 points (survived) spent 1.267ms
+
+> t3-test@1.0.0 submit-test
+> node test.js
+
+Starting 1v1 mode with 2 snakes, board size 5x5, 5 foods, 50 rounds
+Game seed: 0x3d8a86744fd5c387
+
+=== FINAL RESULTS ===
+Snake scores:
+Snake 1: 27 points (survived) spent 4.769ms
+Snake 2: 11 points (survived) spent 1.564ms
+
+> t3-test@1.0.0 submit-test
+> node test.js
+
+Starting 1v1 mode with 2 snakes, board size 5x5, 5 foods, 50 rounds
+Game seed: 0x36f0ca93e43ad6c4
+
+=== FINAL RESULTS ===
+Snake scores:
+Snake 1: 25 points (survived) spent 5.970ms
+Snake 2: 12 points (survived) spent 1.326ms
+
+> t3-test@1.0.0 submit-test
+> node test.js
+
+Starting 1v1 mode with 2 snakes, board size 5x5, 5 foods, 50 rounds
+Game seed: 0x3102dd42692b19c4
+
+=== FINAL RESULTS ===
+Snake scores:
+Snake 1: 19 points (survived) spent 5.494ms
+Snake 2: 10 points (survived) spent 1.207ms
+
+> t3-test@1.0.0 submit-test
+> node test.js
+
+Starting 1v1 mode with 2 snakes, board size 5x5, 5 foods, 50 rounds
+Game seed: 0x537cc45fe4b136ee
+
+=== FINAL RESULTS ===
+Snake scores:
+Snake 1: 20 points (survived) spent 3.152ms
+Snake 2: 15 points (survived) spent 1.313ms
+
+> t3-test@1.0.0 submit-test
+> node test.js
+
+Starting 1v1 mode with 2 snakes, board size 5x5, 5 foods, 50 rounds
+Game seed: 0x2dd20f621b1c4321
+
+=== FINAL RESULTS ===
+Snake scores:
+Snake 1: 20 points (survived) spent 7.552ms
+Snake 2: 18 points (survived) spent 1.409ms
+
+> t3-test@1.0.0 submit-test
+> node test.js
+
+Starting 1v1 mode with 2 snakes, board size 5x5, 5 foods, 50 rounds
+Game seed: 0x1214f3b2606ba3cc
+
+=== FINAL RESULTS ===
+Snake scores:
+Snake 1: 19 points (survived) spent 6.467ms
+Snake 2: 17 points (survived) spent 1.475ms
+
+> t3-test@1.0.0 submit-test
+> node test.js
+
+Starting 1v1 mode with 2 snakes, board size 5x5, 5 foods, 50 rounds
+Game seed: 0xa56ff57e5e5aee5d
+
+=== FINAL RESULTS ===
+Snake scores:
+Snake 1: 9 points (survived) spent 4.289ms
+Snake 2: 5 points (survived) spent 1.181ms
+
+> t3-test@1.0.0 submit-test
+> node test.js
+
+Starting 1v1 mode with 2 snakes, board size 5x5, 5 foods, 50 rounds
+Game seed: 0x03113d6c496e8ce0
+
+=== FINAL RESULTS ===
+Snake scores:
+Snake 1: 18 points (survived) spent 5.576ms
+Snake 2: 14 points (survived) spent 1.279ms
+
+> t3-test@1.0.0 submit-test
+> node test.js
+
+Starting 1v1 mode with 2 snakes, board size 5x5, 5 foods, 50 rounds
+Game seed: 0xbeb88b0506181b1d
+
+=== FINAL RESULTS ===
+Snake scores:
+Snake 1: 24 points (survived) spent 5.646ms
+Snake 2: 12 points (survived) spent 1.244ms
+
+> t3-test@1.0.0 submit-test
+> node test.js
+
+Starting 1v1 mode with 2 snakes, board size 5x5, 5 foods, 50 rounds
+Game seed: 0xfdb34bef75bc7ef0
+
+=== FINAL RESULTS ===
+Snake scores:
+Snake 1: 24 points (survived) spent 4.689ms
+Snake 2: 9 points (survived) spent 1.256ms
+
+> t3-test@1.0.0 submit-test
+> node test.js
+
+Starting 1v1 mode with 2 snakes, board size 5x5, 5 foods, 50 rounds
+Game seed: 0x3ffde54ac4f80c8a
+
+=== FINAL RESULTS ===
+Snake scores:
+Snake 1: 6 points (survived) spent 8.779ms
+Snake 2: 4 points (survived) spent 1.548ms
+
+> t3-test@1.0.0 submit-test
+> node test.js
+
+Starting 1v1 mode with 2 snakes, board size 5x5, 5 foods, 50 rounds
+Game seed: 0x50b4923bd61afe58
+
+=== FINAL RESULTS ===
+Snake scores:
+Snake 1: 13 points (survived) spent 4.820ms
+Snake 2: 7 points (survived) spent 1.491ms
+
+> t3-test@1.0.0 submit-test
+> node test.js
+
+Starting 1v1 mode with 2 snakes, board size 5x5, 5 foods, 50 rounds
+Game seed: 0x068d7c9d180045ec
+
+=== FINAL RESULTS ===
+Snake scores:
+Snake 1: 20 points (survived) spent 4.356ms
+Snake 2: 15 points (survived) spent 1.275ms
+
+> t3-test@1.0.0 submit-test
+> node test.js
+
+Starting 1v1 mode with 2 snakes, board size 5x5, 5 foods, 50 rounds
+Game seed: 0x0f6b042894433700
+
+=== FINAL RESULTS ===
+Snake scores:
+Snake 1: 21 points (survived) spent 5.304ms
+Snake 2: 14 points (survived) spent 1.323ms
+
+> t3-test@1.0.0 submit-test
+> node test.js
+
+Starting 1v1 mode with 2 snakes, board size 5x5, 5 foods, 50 rounds
+Game seed: 0x590c88fd91e46c6a
+
+=== FINAL RESULTS ===
+Snake scores:
+Snake 1: 18 points (survived) spent 4.015ms
+Snake 2: 22 points (survived) spent 1.214ms
+
+> t3-test@1.0.0 submit-test
+> node test.js
+
+Starting 1v1 mode with 2 snakes, board size 5x5, 5 foods, 50 rounds
+Game seed: 0x239bee0b480c63f6
+
+=== FINAL RESULTS ===
+Snake scores:
+Snake 1: 25 points (survived) spent 5.404ms
+Snake 2: 13 points (survived) spent 1.288ms
+
+> t3-test@1.0.0 submit-test
+> node test.js
+
+Starting 1v1 mode with 2 snakes, board size 5x5, 5 foods, 50 rounds
+Game seed: 0x2e5deacf8c223dc5
+
+=== FINAL RESULTS ===
+Snake scores:
+Snake 1: 16 points (survived) spent 5.411ms
+Snake 2: 14 points (survived) spent 1.243ms
+
+> t3-test@1.0.0 submit-test
+> node test.js
+
+Starting 1v1 mode with 2 snakes, board size 5x5, 5 foods, 50 rounds
+Game seed: 0x8d9bf02144651688
+
+=== FINAL RESULTS ===
+Snake scores:
+Snake 1: 4 points (survived) spent 5.518ms
+Snake 2: 4 points (survived) spent 1.247ms
+
+> t3-test@1.0.0 submit-test
+> node test.js
+
+Starting 1v1 mode with 2 snakes, board size 5x5, 5 foods, 50 rounds
+Game seed: 0x9af1692c780f3ce3
+
+=== FINAL RESULTS ===
+Snake scores:
+Snake 1: 23 points (survived) spent 3.393ms
+Snake 2: 21 points (survived) spent 1.302ms
+
+> t3-test@1.0.0 submit-test
+> node test.js
+
+Starting 1v1 mode with 2 snakes, board size 5x5, 5 foods, 50 rounds
+Game seed: 0xd1dc02c7b44b27c8
+
+=== FINAL RESULTS ===
+Snake scores:
+Snake 1: 23 points (survived) spent 4.875ms
+Snake 2: 20 points (survived) spent 1.372ms
+
+> t3-test@1.0.0 submit-test
+> node test.js
+
+Starting 1v1 mode with 2 snakes, board size 5x5, 5 foods, 50 rounds
+Game seed: 0xc1c82fd56e2b044d
+
+=== FINAL RESULTS ===
+Snake scores:
+Snake 1: 22 points (survived) spent 5.182ms
+Snake 2: 13 points (survived) spent 1.296ms
+
+> t3-test@1.0.0 submit-test
+> node test.js
+
+Starting 1v1 mode with 2 snakes, board size 5x5, 5 foods, 50 rounds
+Game seed: 0x69ed6b2e6ab9166d
+
+=== FINAL RESULTS ===
+Snake scores:
+Snake 1: 15 points (survived) spent 6.268ms
+Snake 2: 10 points (survived) spent 1.270ms
+
+> t3-test@1.0.0 submit-test
+> node test.js
+
+Starting 1v1 mode with 2 snakes, board size 5x5, 5 foods, 50 rounds
+Game seed: 0x1e66805685ba63ec
+
+=== FINAL RESULTS ===
+Snake scores:
+Snake 1: 24 points (survived) spent 5.349ms
+Snake 2: 15 points (survived) spent 1.280ms
+
+> t3-test@1.0.0 submit-test
+> node test.js
+
+Starting 1v1 mode with 2 snakes, board size 5x5, 5 foods, 50 rounds
+Game seed: 0xfcdaefe9596de390
+
+=== FINAL RESULTS ===
+Snake scores:
+Snake 1: 25 points (survived) spent 3.816ms
+Snake 2: 16 points (survived) spent 1.260ms
+
+> t3-test@1.0.0 submit-test
+> node test.js
+
+Starting 1v1 mode with 2 snakes, board size 5x5, 5 foods, 50 rounds
+Game seed: 0xa870d7bc38fd0834
+
+=== FINAL RESULTS ===
+Snake scores:
+Snake 1: 22 points (survived) spent 5.187ms
+Snake 2: 14 points (survived) spent 1.184ms
+
+> t3-test@1.0.0 submit-test
+> node test.js
+
+Starting 1v1 mode with 2 snakes, board size 5x5, 5 foods, 50 rounds
+Game seed: 0x7595fc3cdf460dd4
+
+=== FINAL RESULTS ===
+Snake scores:
+Snake 1: 19 points (survived) spent 2.663ms
+Snake 2: 16 points (survived) spent 1.251ms
+
+> t3-test@1.0.0 submit-test
+> node test.js
+
+Starting 1v1 mode with 2 snakes, board size 5x5, 5 foods, 50 rounds
+Game seed: 0x7759800fdd2aba7b
+
+=== FINAL RESULTS ===
+Snake scores:
+Snake 1: 23 points (survived) spent 5.394ms
+Snake 2: 12 points (survived) spent 1.533ms
+
+> t3-test@1.0.0 submit-test
+> node test.js
+
+Starting 1v1 mode with 2 snakes, board size 5x5, 5 foods, 50 rounds
+Game seed: 0xd8290463d8f6695e
+
+=== FINAL RESULTS ===
+Snake scores:
+Snake 1: 8 points (survived) spent 5.161ms
+Snake 2: 11 points (survived) spent 1.351ms
+
+> t3-test@1.0.0 submit-test
+> node test.js
+
+Starting 1v1 mode with 2 snakes, board size 5x5, 5 foods, 50 rounds
+Game seed: 0x82b790fc0c01d92f
+
+=== FINAL RESULTS ===
+Snake scores:
+Snake 1: 23 points (survived) spent 5.446ms
+Snake 2: 20 points (survived) spent 1.236ms
+
+> t3-test@1.0.0 submit-test
+> node test.js
+
+Starting 1v1 mode with 2 snakes, board size 5x5, 5 foods, 50 rounds
+Game seed: 0xcda862b8fd663ece
+
+=== FINAL RESULTS ===
+Snake scores:
+Snake 1: 24 points (survived) spent 5.485ms
+Snake 2: 20 points (survived) spent 1.298ms
+
+> t3-test@1.0.0 submit-test
+> node test.js
+
+Starting 1v1 mode with 2 snakes, board size 5x5, 5 foods, 50 rounds
+Game seed: 0x4f26bc20e0841577
+
+=== FINAL RESULTS ===
+Snake scores:
+Snake 1: 18 points (survived) spent 5.753ms
+Snake 2: 12 points (survived) spent 1.243ms
+
+> t3-test@1.0.0 submit-test
+> node test.js
+
+Starting 1v1 mode with 2 snakes, board size 5x5, 5 foods, 50 rounds
+Game seed: 0xf496f2ac470d630c
+
+=== FINAL RESULTS ===
+Snake scores:
+Snake 1: 6 points (survived) spent 6.741ms
+Snake 2: 9 points (survived) spent 1.404ms
+
+> t3-test@1.0.0 submit-test
+> node test.js
+
+Starting 1v1 mode with 2 snakes, board size 5x5, 5 foods, 50 rounds
+Game seed: 0x274c22b0b8ecb03a
+
+=== FINAL RESULTS ===
+Snake scores:
+Snake 1: 21 points (survived) spent 5.649ms
+Snake 2: 11 points (survived) spent 1.256ms
+
+> t3-test@1.0.0 submit-test
+> node test.js
+
+Starting 1v1 mode with 2 snakes, board size 5x5, 5 foods, 50 rounds
+Game seed: 0x4738f7c5aeece811
+
+=== FINAL RESULTS ===
+Snake scores:
+Snake 1: 20 points (survived) spent 5.611ms
+Snake 2: 14 points (survived) spent 1.237ms
+
+> t3-test@1.0.0 submit-test
+> node test.js
+
+Starting 1v1 mode with 2 snakes, board size 5x5, 5 foods, 50 rounds
+Game seed: 0x95e3e4ffa2941b50
+
+=== FINAL RESULTS ===
+Snake scores:
+Snake 1: 20 points (survived) spent 5.681ms
+Snake 2: 16 points (survived) spent 1.232ms
+
+> t3-test@1.0.0 submit-test
+> node test.js
+
+Starting 1v1 mode with 2 snakes, board size 5x5, 5 foods, 50 rounds
+Game seed: 0xc1657ba6d15bfcdf
+
+=== FINAL RESULTS ===
+Snake scores:
+Snake 1: 29 points (survived) spent 4.718ms
+Snake 2: 7 points (died in round 14) spent 0.877ms
+
+> t3-test@1.0.0 submit-test
+> node test.js
+
+Starting 1v1 mode with 2 snakes, board size 5x5, 5 foods, 50 rounds
+Game seed: 0x504a7e7811328206
+
+=== FINAL RESULTS ===
+Snake scores:
+Snake 1: 17 points (survived) spent 5.438ms
+Snake 2: 16 points (survived) spent 1.369ms
+
+> t3-test@1.0.0 submit-test
+> node test.js
+
+Starting 1v1 mode with 2 snakes, board size 5x5, 5 foods, 50 rounds
+Game seed: 0xa61668dfa2b96948
+
+=== FINAL RESULTS ===
+Snake scores:
+Snake 1: 24 points (survived) spent 5.704ms
+Snake 2: 20 points (survived) spent 1.256ms
+
+> t3-test@1.0.0 submit-test
+> node test.js
+
+Starting 1v1 mode with 2 snakes, board size 5x5, 5 foods, 50 rounds
+Game seed: 0x18a9a0c68f6c97ad
+
+=== FINAL RESULTS ===
+Snake scores:
+Snake 1: 27 points (survived) spent 5.598ms
+Snake 2: 19 points (survived) spent 1.232ms
+
+> t3-test@1.0.0 submit-test
+> node test.js
+
+Starting 1v1 mode with 2 snakes, board size 5x5, 5 foods, 50 rounds
+Game seed: 0x04f33c40b1140d84
+
+=== FINAL RESULTS ===
+Snake scores:
+Snake 1: 19 points (survived) spent 5.702ms
+Snake 2: 18 points (survived) spent 1.252ms
+
+> t3-test@1.0.0 submit-test
+> node test.js
+
+Starting 1v1 mode with 2 snakes, board size 5x5, 5 foods, 50 rounds
+Game seed: 0x74dcc4b55cb3b467
+
+=== FINAL RESULTS ===
+Snake scores:
+Snake 1: 20 points (survived) spent 5.990ms
+Snake 2: 9 points (survived) spent 1.449ms
+
+> t3-test@1.0.0 submit-test
+> node test.js
+
+Starting 1v1 mode with 2 snakes, board size 5x5, 5 foods, 50 rounds
+Game seed: 0xb4c228acdeb43de0
+
+=== FINAL RESULTS ===
+Snake scores:
+Snake 1: 4 points (survived) spent 6.794ms
+Snake 2: 7 points (survived) spent 1.519ms
+
+> t3-test@1.0.0 submit-test
+> node test.js
+
+Starting 1v1 mode with 2 snakes, board size 5x5, 5 foods, 50 rounds
+Game seed: 0xc0ecf6104520c6c6
+
+=== FINAL RESULTS ===
+Snake scores:
+Snake 1: 19 points (survived) spent 7.296ms
+Snake 2: 19 points (survived) spent 1.416ms
+
+> t3-test@1.0.0 submit-test
+> node test.js
+
+Starting 1v1 mode with 2 snakes, board size 5x5, 5 foods, 50 rounds
+Game seed: 0x5935898c42c05e25
+
+=== FINAL RESULTS ===
+Snake scores:
+Snake 1: 17 points (survived) spent 6.468ms
+Snake 2: 13 points (survived) spent 1.447ms
+
+> t3-test@1.0.0 submit-test
+> node test.js
+
+Starting 1v1 mode with 2 snakes, board size 5x5, 5 foods, 50 rounds
+Game seed: 0xf7174873a2a1feda
+
+=== FINAL RESULTS ===
+Snake scores:
+Snake 1: 24 points (survived) spent 6.973ms
+Snake 2: 8 points (survived) spent 1.481ms
+
+> t3-test@1.0.0 submit-test
+> node test.js
+
+Starting 1v1 mode with 2 snakes, board size 5x5, 5 foods, 50 rounds
+Game seed: 0x74c83fac8817dccc
+
+=== FINAL RESULTS ===
+Snake scores:
+Snake 1: 23 points (survived) spent 6.749ms
+Snake 2: 13 points (survived) spent 1.574ms
+
+> t3-test@1.0.0 submit-test
+> node test.js
+
+Starting 1v1 mode with 2 snakes, board size 5x5, 5 foods, 50 rounds
+Game seed: 0xd4a51c8d240d6248
+
+=== FINAL RESULTS ===
+Snake scores:
+Snake 1: 32 points (survived) spent 4.466ms
+Snake 2: 12 points (survived) spent 1.333ms
+
+> t3-test@1.0.0 submit-test
+> node test.js
+
+Starting 1v1 mode with 2 snakes, board size 5x5, 5 foods, 50 rounds
+Game seed: 0xf012eed3b0ddf3c9
+
+=== FINAL RESULTS ===
+Snake scores:
+Snake 1: 4 points (survived) spent 7.014ms
+Snake 2: 3 points (survived) spent 1.348ms
+
+> t3-test@1.0.0 submit-test
+> node test.js
+
+Starting 1v1 mode with 2 snakes, board size 5x5, 5 foods, 50 rounds
+Game seed: 0x601b9a6bdb103b59
+
+=== FINAL RESULTS ===
+Snake scores:
+Snake 1: 20 points (survived) spent 6.649ms
+Snake 2: 16 points (survived) spent 1.161ms
+
+> t3-test@1.0.0 submit-test
+> node test.js
+
+Starting 1v1 mode with 2 snakes, board size 5x5, 5 foods, 50 rounds
+Game seed: 0x1e9de2cef82c5a74
+
+=== FINAL RESULTS ===
+Snake scores:
+Snake 1: 24 points (survived) spent 7.534ms
+Snake 2: 16 points (survived) spent 1.532ms
